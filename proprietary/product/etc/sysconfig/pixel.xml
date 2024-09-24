@@ -26,6 +26,12 @@
     <allow-ignore-location-settings package="com.google.android.gms" attributionTag="com.google.android.gms.thunderbird" />
     <allow-ignore-location-settings package="com.google.android.dialer" attributionTag="*" />
 
+    <!-- SCONE must get device location for satellite emergency communications. -->
+    <allow-ignore-location-settings package="com.google.android.apps.scone" attributionTag="satellite_esos" />
+
+    <!-- Satellite access controller must get device location for satellite emergency communications. -->
+    <allow-ignore-location-settings package="com.android.phone" attributionTag="telephony" />
+
     <!-- OobConfig must always have network access to fetch enterprise and carrier lock config. -->
     <allow-in-power-save-except-idle package="com.google.android.apps.work.oobconfig" />
     <allow-in-data-usage-save package="com.google.android.apps.work.oobconfig" />
@@ -121,20 +127,26 @@
     <!-- AI services open-source network component can bind to AI Core. -->
     <allow-association target="com.google.android.as.oss" allowed="com.google.android.aicore" />
 
+    <!-- Pixel Launcher can bind to the open-source network component. -->
+    <allow-association target="com.google.android.as.oss" allowed="com.google.android.apps.nexuslauncher" />
+
     <!-- Specify the explicit set of other applications whose app data directories are
         accessible by other applications. -->
     <app-data-isolation-whitelisted-app package="com.google.android.gms" />
 
     <!-- Whitelist of packages that eligible for rollback -->
     <rollback-whitelisted-app package="com.android.vending" />
+    <rollback-whitelisted-app package="com.google.android.gms" />
 
     <!-- Specify the installer eligiable for updating the given GMS package. -->
     <update-ownership package="com.google.android.gms" installer="com.android.vending" />
 
     <!-- Denylist of packages that are not eligible for automatic rollback -->
     <automatic-rollback-denylisted-app package="com.android.vending" />
+    <automatic-rollback-denylisted-app package="com.google.android.gms" />
 
-    <!-- Allow device lock controller app to schedule jobs and alarms when app in background,
-        otherwise, it may not be able to enforce provision for managed devices. -->
+    <!-- Allow device lock controller app to schedule jobs and alarms, and have network access when app
+         in background; otherwise, it may not be able to enforce provision for managed devices. -->
     <allow-in-power-save package="com.google.android.devicelockcontroller" />
+    <allow-in-data-usage-save package="com.google.android.devicelockcontroller" />
 </config>

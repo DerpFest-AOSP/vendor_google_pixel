@@ -8,9 +8,9 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "MarkupGoogle",
+	name: "MarkupGoogle_v2",
 	owner: "google",
-	apk: "proprietary/product/app/MarkupGoogle/MarkupGoogle.apk",
+	apk: "proprietary/product/app/MarkupGoogle_v2/MarkupGoogle_v2.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -71,9 +71,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PixelSetupWizard",
+	name: "SetupWizardPixelPrebuilt",
 	owner: "google",
-	apk: "proprietary/system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk",
+	apk: "proprietary/system_ext/priv-app/SetupWizardPixelPrebuilt/SetupWizardPixelPrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {

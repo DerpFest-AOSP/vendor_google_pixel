@@ -1,4 +1,4 @@
-product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
+product/app/MarkupGoogle_v2/MarkupGoogle_v2.apk;PRESIGNED
 product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OVERRIDES=SoundPicker
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/preferred-apps/google.xml:product/etc/preferred-apps/pixel.xml
@@ -95,7 +95,7 @@ product/priv-app/WeatherPixelPrebuilt/WeatherPixelPrebuilt.apk;PRESIGNED
 product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED;OVERRIDES=SettingsIntelligence
 system_ext/app/Flipendo/Flipendo.apk
 system_ext/etc/permissions/privapp-permissions-google-se.xml
-system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk;PRESIGNED
+system_ext/priv-app/SetupWizardPixelPrebuilt/SetupWizardPixelPrebuilt.apk;PRESIGNED
 system_ext/priv-app/SystemUIClocks-BigNum/SystemUIClocks-BigNum.apk
 system_ext/priv-app/SystemUIClocks-Calligraphy/SystemUIClocks-Calligraphy.apk
 system_ext/priv-app/SystemUIClocks-Flex/SystemUIClocks-Flex.apk

@@ -40,7 +40,8 @@
     <allow-in-power-save-except-idle package="com.google.android.carrier" />
 
     <!-- Whitelist so headless app JobService can work. b/135126855 -->
-    <allow-in-power-save-except-idle package="com.google.android.apps.carrier.carrierwifi" />
+    <!-- Allow CarrierWifi WifiScorerService to run in background. b/334906519 -->
+    <allow-in-power-save package="com.google.android.apps.carrier.carrierwifi" />
 
     <!-- These are telephony components that need to run in the background -->
     <allow-in-power-save package="com.qualcomm.atfwd" />

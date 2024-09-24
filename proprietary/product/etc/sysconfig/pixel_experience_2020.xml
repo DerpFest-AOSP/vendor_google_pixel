@@ -7,4 +7,7 @@
 
     <!-- Allow Flipendo in power save. -->
     <allow-in-power-save-except-idle package="com.google.android.flipendo" />
+
+    <!-- Ensure CloudDPC signature check upon reboot. -->
+    <require-strict-signature package="com.google.android.apps.work.clouddpc" />
 </config>

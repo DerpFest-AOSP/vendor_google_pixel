@@ -18,6 +18,7 @@ $(call inherit-product, vendor/google/prebuilt/packages.mk)
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AvatarPickerPixelOverlay \
     PixelDocumentsUIGoogleOverlay \
     PixelDocumentsUIOverlay \
     PixelFrameworksOverlay \

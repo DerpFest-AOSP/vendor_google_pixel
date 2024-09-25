@@ -7,6 +7,20 @@ soong_namespace {
 	],
 }
 
+	android_app_import {
+	name: "AvatarPickerGoogle",
+	owner: "gms",
+	apk: "proprietary/system_ext/priv-app/AvatarPickerGoogle/AvatarPickerGoogle.apk",
+	overrides: ["AvatarPicker"],
+	preprocessed: true,
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
 android_app_import {
 	name: "MarkupGoogle_v2",
 	owner: "google",

@@ -25,7 +25,6 @@ PRODUCT_PACKAGES += \
     PixelSettingsOverlay \
     PixelSetupWizardOverlay \
     PixelSetupWizardOverlay2021 \
-    PixelSetupWizardStringsOverlay \
     PixelSystemUIOverlay
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/google/pixel/overlay/static

@@ -61,9 +61,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WeatherPixelPrebuilt",
+	name: "WeatherPixelPrebuilt_24D1",
 	owner: "google",
-	apk: "proprietary/product/priv-app/WeatherPixelPrebuilt/WeatherPixelPrebuilt.apk",
+	apk: "proprietary/product/priv-app/WeatherPixelPrebuilt_24D1/WeatherPixelPrebuilt_24D1.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {

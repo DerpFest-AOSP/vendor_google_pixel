@@ -16,6 +16,8 @@ product/etc/sysconfig/pixel_experience_2020.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2018-and-newer.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml
+product/etc/sysconfig/preinstalled-packages-product-pixel-2022-and-newer.xml
+product/etc/sysconfig/preinstalled-packages-product-pixel-2023-and-newer.xml
 product/fonts/GoogleSansClock-Regular.ttf
 product/fonts/GoogleSansFlex-Regular.ttf
 product/fonts/GoogleSans-Italic.ttf
@@ -91,9 +93,10 @@ product/media/audio/ui/Unlock.ogg
 product/media/audio/ui/VideoRecord.ogg
 product/media/audio/ui/VideoStop.ogg
 product/media/audio/ui/WirelessChargingStarted.ogg
-product/priv-app/WeatherPixelPrebuilt/WeatherPixelPrebuilt.apk;PRESIGNED
+product/priv-app/WeatherPixelPrebuilt_24D1/WeatherPixelPrebuilt_24D1.apk;PRESIGNED
 product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;PRESIGNED;OVERRIDES=SettingsIntelligence
 system_ext/app/Flipendo/Flipendo.apk
+system_ext/etc/default-permissions/default-permissions_pixelweather.xml
 system_ext/etc/permissions/privapp-permissions-google-se.xml
 system_ext/priv-app/SetupWizardPixelPrebuilt/SetupWizardPixelPrebuilt.apk;PRESIGNED
 system_ext/priv-app/SystemUIClocks-BigNum/SystemUIClocks-BigNum.apk

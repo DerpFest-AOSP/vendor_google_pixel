@@ -109,7 +109,6 @@ PRODUCT_PACKAGES += \
     SettingsIntelligenceGooglePrebuilt \
     WeatherPixelPrebuilt_24D1 \
     Flipendo \
-    SetupWizardPixelPrebuilt \
     SystemUIClocks-BigNum \
     SystemUIClocks-Calligraphy \
     SystemUIClocks-Flex \

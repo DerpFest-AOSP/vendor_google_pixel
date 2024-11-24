@@ -97,7 +97,6 @@ product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePr
 system_ext/app/Flipendo/Flipendo.apk
 system_ext/etc/default-permissions/default-permissions_pixelweather.xml
 system_ext/etc/permissions/privapp-permissions-google-se.xml
-system_ext/priv-app/SetupWizardPixelPrebuilt/SetupWizardPixelPrebuilt.apk;PRESIGNED
 system_ext/priv-app/SystemUIClocks-BigNum/SystemUIClocks-BigNum.apk
 system_ext/priv-app/SystemUIClocks-Calligraphy/SystemUIClocks-Calligraphy.apk
 system_ext/priv-app/SystemUIClocks-Flex/SystemUIClocks-Flex.apk

@@ -1,4 +1,0 @@
-runtime_resource_overlay {
-    name: "PixelSetupWizardOverlay2021",
-    product_specific: true,
-}

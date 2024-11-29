@@ -17,10 +17,6 @@ product/etc/sysconfig/preinstalled-packages-product-pixel-2018-and-newer.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2019-and-newer.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2022-and-newer.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2023-and-newer.xml
-product/fonts/GoogleSansClock-Regular.ttf
-product/fonts/GoogleSansFlex-Regular.ttf
-product/fonts/GoogleSans-Italic.ttf
-product/fonts/GoogleSans-Regular.ttf
 product/media/audio/alarms/A_real_hoot.ogg
 product/media/audio/alarms/Bright_morning.ogg
 product/media/audio/alarms/Cuckoo_clock.ogg

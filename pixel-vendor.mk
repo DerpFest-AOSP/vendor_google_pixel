@@ -107,6 +107,7 @@ PRODUCT_PACKAGES += \
     Flipendo \
     SetupWizardPixelPrebuilt \
     SystemUIClocks-BigNum \
+    SystemUIClocks-BigNum2 \
     SystemUIClocks-Calligraphy \
     SystemUIClocks-Flex \
     SystemUIClocks-Growth \

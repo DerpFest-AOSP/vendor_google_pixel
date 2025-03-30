@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/google/pixel
 
 PRODUCT_COPY_FILES += \
+    vendor/google/pixel/proprietary/product/etc/permissions/com.google.android.contextual_search.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.contextual_search.xml \
     vendor/google/pixel/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
     vendor/google/pixel/proprietary/product/etc/preferred-apps/pixel.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/preferred-apps/pixel.xml \
     vendor/google/pixel/proprietary/product/etc/sysconfig/pixel.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel.xml \

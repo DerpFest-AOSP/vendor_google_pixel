@@ -102,3 +102,6 @@ system_ext/priv-app/SystemUIClocks-Inflate/SystemUIClocks-Inflate.apk
 system_ext/priv-app/SystemUIClocks-Metro/SystemUIClocks-Metro.apk
 system_ext/priv-app/SystemUIClocks-NumOverlap/SystemUIClocks-NumOverlap.apk
 system_ext/priv-app/SystemUIClocks-Weather/SystemUIClocks-Weather.apk
+
+# Circle to Search
+product/etc/permissions/com.google.android.contextual_search.xml|ec2659ab0f9bcce728ea2f03b35641e7fcfa40bd

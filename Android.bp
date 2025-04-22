@@ -110,18 +110,6 @@ android_app_import {
 }
 
 android_app_import {
-    name: "SystemUIClocks-BigNum2",
-    owner: "google",
-    apk: "proprietary/system_ext/priv-app/SystemUIClocks-BigNum2/SystemUIClocks-BigNum2.apk",
-    certificate: "platform",
-    dex_preopt: {
-            enabled: false,
-    },
-    privileged: true,
-    system_ext_specific: true,
-}
-
-android_app_import {
 	name: "SystemUIClocks-Calligraphy",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/SystemUIClocks-Calligraphy/SystemUIClocks-Calligraphy.apk",
@@ -185,18 +173,6 @@ android_app_import {
 	name: "SystemUIClocks-NumOverlap",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/SystemUIClocks-NumOverlap/SystemUIClocks-NumOverlap.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "SystemUIClocks-Weather",
-	owner: "google",
-	apk: "proprietary/system_ext/priv-app/SystemUIClocks-Weather/SystemUIClocks-Weather.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

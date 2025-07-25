@@ -37,5 +37,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=Your_new_adventure.ogg
 
 # Sepolicy
-BOARD_VENDOR_SEPOLICY_DIRS += \
-    vendor/google/pixel/sepolicy
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
+    vendor/google/pixel/sepolicy/public
+
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
+    vendor/google/pixel/sepolicy/private

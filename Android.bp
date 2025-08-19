@@ -88,6 +88,7 @@ android_app_import {
 	name: "SetupWizardPixelPrebuilt",
 	owner: "google",
 	apk: "proprietary/system_ext/priv-app/SetupWizardPixelPrebuilt/SetupWizardPixelPrebuilt.apk",
+	overrides: ["LineageSetupWizard"],
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {

@@ -30,12 +30,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/google/pixel/overlay/static
 PRODUCT_PACKAGE_OVERLAYS += vendor/google/pixel/overlay/static
 
-# Set default ringtone, notification and alarm
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.alarm_alert=Fresh_start.ogg \
-    ro.config.notification_sound=Eureka.ogg \
-    ro.config.ringtone=Your_new_adventure.ogg
-
 # Sepolicy
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
     vendor/google/pixel/sepolicy/public
